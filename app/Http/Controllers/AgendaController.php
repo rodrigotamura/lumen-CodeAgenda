@@ -2,17 +2,15 @@
 
 namespace CodeAgenda\Http\Controllers;
 
-class ExampleController extends Controller
+class AgendaController extends Controller
 {
     /**
      * Create a new controller instance.
      *
      * @return void
      */
-    public function __construct()
+    public function index()
     {
-        //
+        return "Olá Jesus!!!";
     }
-
-    //
 }
